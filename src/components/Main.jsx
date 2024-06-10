@@ -9,6 +9,7 @@ function Main(){
       <p>Here you can find something awesome for your space</p>
     
       <Button texto="ver mas"/>
+      <Button texto="detalles"/>
     </main>
         </>
     )
