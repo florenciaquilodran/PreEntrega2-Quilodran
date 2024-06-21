@@ -1,5 +1,5 @@
 import Button from "./Button";
-import ItemListContainer from "./ItemListContainer";
+
 
 
 function Main(){
@@ -12,7 +12,7 @@ function Main(){
             <Button texto="ver mas"/>
             <Button texto="detalles"/>
 
-            <ItemListContainer/>
+           
         </main>
     )
 }
