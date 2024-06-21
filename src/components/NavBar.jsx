@@ -1,24 +1,16 @@
-import CartWidget from "./CartWidget"
+import CartWidget from "./CartWidget";
+import { Link } from "react-router-dom";
 
 
-function NavBar(props){
-
-
-  
+function NavBar(props){  
   if(props.isHeader == true) {
     return (
-        <nav className="flex gap-4">
-            
-              <a href='#'>Graphic Design</a>
-              <a href='#'>About Us</a>
-              <a href='#'>Shop</a>
-              <a href='#'>Sales</a>
-              <CartWidget/>
-            
-          
-          </nav>
-          
-         
+        <nav className="flex gap-4">            
+              <Link to="/">Home</Link>
+              <Link to="/category/aboutus">About Us</Link>
+              <Link to="/category/shop">Shop</Link>
+              <CartWidget/>                      
+        </nav>
     ) 
   } else {
     return (
