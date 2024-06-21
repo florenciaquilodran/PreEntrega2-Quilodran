@@ -1,3 +1,5 @@
+import Button from "./Button"
+
 function ItemList({ productos }) {
 
     
@@ -12,6 +14,7 @@ function ItemList({ productos }) {
                 <h2>{producto.title}</h2>
                 <p>${producto.price}</p>
                 <img src={producto.images[0]} alt={producto.title}/>
+                <Button>Ver Detalle</Button>
             </article>
             </>
         )
