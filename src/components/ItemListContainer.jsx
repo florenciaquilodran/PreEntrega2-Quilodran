@@ -4,10 +4,8 @@ import { useEffect } from "react";
 
 function ItemListContainer(){
     
-    
     const [productos, setProductos] = useState([])
     const [pagina, setPagina] = useState(1)
-
     
     useEffect(()=>{
         fetch('https://dummyjson.com/products')
@@ -15,7 +13,6 @@ function ItemListContainer(){
         .then((data) => {console.log(data.products)
             setProductos(data.products)
         })
-
     }, [pagina])
 
     const cambiarPaginaUno = () => {

@@ -1,9 +1,6 @@
 import Button from "./Button"
 
-function ItemList({ productos }) {
-
-    
-
+function ItemList({ productos }) { 
     return (
         <section className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6">
         {productos.map((producto,indice) => {

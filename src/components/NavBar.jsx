@@ -14,21 +14,13 @@ function NavBar(props){
     ) 
   } else {
     return (
-      <nav className="flex justify-center gap-4 text-xs">
-        
-              <a href='#'>Términos y condiciones</a>
-              <a href='#'>F.A.Q</a>
-              <a href='#'>contacto</a>
-            
+      <nav className="flex justify-center gap-4 text-xs">        
+              <Link to='/terminosycondiciones'>Términos y condiciones</Link>
+              <Link to='faq'>F.A.Q</Link>
+              <Link to='contacto'>contacto</Link>            
       </nav>
     )
   }
-
-
-}
-
-
-    
-
+} 
 
 export default NavBar 
