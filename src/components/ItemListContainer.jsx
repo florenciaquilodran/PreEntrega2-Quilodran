@@ -28,9 +28,9 @@ function ItemListContainer(){
     return (
         <>
         <div>
-            <button onClick={cambiarPaginaUno}>Pagina 1</button>
-            <button onClick={cambiarPaginaDos}>Pagina 2</button>
-            <button onClick={cambiarPaginaTres}>Pagina 3</button>
+            <button onClick={cambiarPaginaUno} className="p-3 m-3 bg-lime-400">Pagina 1</button>
+            <button onClick={cambiarPaginaDos} className="p-3 m-3 bg-lime-400">Pagina 2</button>
+            <button onClick={cambiarPaginaTres} className="p-3 m-3 bg-lime-400">Pagina 3</button>
         </div>
             <ItemList productos={productos}/>    
             </>    
