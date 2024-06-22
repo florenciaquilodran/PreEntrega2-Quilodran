@@ -3,7 +3,7 @@ import { ShoppingCart } from "lucide-react"
 function CartWidget(){
     return (
     <>
-        <nav>                 
+        <nav>                
             <ShoppingCart/>
         </nav>
         <p>7 Items en el carrito</p>
