@@ -9,6 +9,7 @@ function Header () {
         <NavBar isHeader={true}/>
         <Routes>
             <Route path="/category/shop" element={<input/>} className="bg-emerald-400" />
+            
         </Routes>
         <h1 className="text-2xl font-bold">THE UNIVERSE STORE</h1>
         </header>   
