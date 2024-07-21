@@ -6,7 +6,7 @@ function Button(){
   const [estado, setEstado] = useState(false)
   const isDesktop = useDesktop()
   
-
+  
   const hacerClick = () => {
     console.log(!estado)
   }
@@ -15,7 +15,7 @@ function Button(){
     if (estado === false) {
       return (
         <div>
-          <button onClick={hacerClick} className="btn">Click me</button>
+          <button onClick={hacerClick} className="btn">Agregar</button>
         </div>
       )
     }

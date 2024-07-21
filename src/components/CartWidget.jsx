@@ -1,12 +1,18 @@
 import { ShoppingCart } from "lucide-react"
+import { useContext } from "react";
+import { miContexto } from "./CartProvider"
 
 function CartWidget(){
+
+    const valorDelContexto = useContext(miContexto)
+
     return (
     <>
-        <nav>                
+        <nav> 
+        {valorDelContexto.cant}               
             <ShoppingCart/>
         </nav>
-        <p>7 Items en el carrito</p>
+       
     </>
     )
 }

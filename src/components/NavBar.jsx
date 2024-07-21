@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 
 function NavBar(props){  
+
   if(props.isHeader == true) {
     return (
         <nav className="flex gap-4">            
