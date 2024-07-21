@@ -18,11 +18,8 @@ function App() {
     <Main/>
     <ItemListContainer/>
     <Footer/> 
-    </CartProvider> 
-    
-    </BrowserRouter>
-    
-   
+    </CartProvider>     
+    </BrowserRouter>      
   )
 }
 
