@@ -1,7 +1,7 @@
 import { createContext, useState } from "react";
 
-export const userContext = createContext() // { Provider , Consumer , _getContext , ....}
-const Provider = userContext.Provider // Componente {}
+export const userContext = createContext() 
+const Provider = userContext.Provider  
 
 
 function UserProvider({ children }) {
