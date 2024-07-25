@@ -28,7 +28,7 @@ function ItemListContainer(){
         .then((data) => {console.log(data.products)
             setProductos(data.products)
         })
-    }, [pagina])
+    }, [pagina, setPagina])
 
 
     return (
