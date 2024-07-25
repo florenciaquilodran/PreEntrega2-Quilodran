@@ -1,10 +1,10 @@
 import ItemList from "./ItemList";
 import { useState } from "react";
 import { useEffect } from "react";
-import { app } from "../FirebaseConfig";
-import { getFirestore , collection , addDoc } from "firebase/firestore";
+//import { FirebaseApp } from "../FirebaseConfig";
+//import { getFirestore , collection , addDoc } from "firebase/firestore";
 
-const db = getFirestore(app);
+/*const db = getFirestore(FirebaseApp);
 const collectionDeProductos = collection(db,"productos")
 const consulta = addDoc(collectionDeProductos, {
     "title":"Essence Mascara Lash Princess",
@@ -15,7 +15,7 @@ const consulta = addDoc(collectionDeProductos, {
     "images":["https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png"],
 })
 
-console.log(consulta)
+console.log(consulta)*/
 
 function ItemListContainer(){
     
